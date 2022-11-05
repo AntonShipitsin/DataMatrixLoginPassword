@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+.logo {
+  margin: 0 auto;
+  max-width: 250px;
+  height: 70px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./antares-main-logo.png);
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #fafafa;
+  background-color: #747d81;
+  cursor: pointer;
+}
+
+.remove-button {
+  background-color: rgb(177, 4, 4);
+  padding: 1px 5px;
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+
+.remove-button:hover {
+  background-color: rgb(212, 3, 3);
+}
+
+.remove-button:active {
+  background-color: rgb(212, 3, 3);
+}
+
+
+
+.login-list {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+select {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 4px 10px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.new-login {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+  width: 290px;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+label {
+  justify-self: end;
+}
+
+.datamatrix {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-image: url(./apple-touch-icon.png);
+  background-size: contain;
+}
