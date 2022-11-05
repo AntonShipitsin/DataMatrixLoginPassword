@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <title>DM login</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo"></div>
+      <!-- <h3 class="title">Datamatrix login password generator</h3> -->
+      <div class="login-list">
+        <h2 class="title">List</h2>
+        <div class="container">
+          <select name="list" id="login-value"></select>
+          <!-- <button class="show-button">Show</button> -->
+          <button class="remove-button">x</button>
+        </div>
+      </div>
+      <div class="new-login">
+        <h2 class="title">Create new</h2>
+        <div class="container">
+          <input id="login" type="text" placeholder="login" />
+          <input id="password" type="text" placeholder="password" />
+        </div>
+        <div class="container">
+          <button class="generate-button">Generate</button>
+        </div>
+      </div>
+      <div class="datamatrix"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
