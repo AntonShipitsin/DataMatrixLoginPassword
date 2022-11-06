@@ -10,7 +10,7 @@ let existingLogins = document.querySelector('select')
 
 // ================================================
 const showDataMatrix = function (user, pass) {
-  dataMatrix.style.backgroundImage = `url(https://bwipjs-api.metafloor.com/?bcid=datamatrix&text=${user}%5E009${pass}&parse&scale=5&option=parse)`;
+  dataMatrix.style.backgroundImage = `url(http://bwipjs-api.metafloor.com/?bcid=datamatrix&text=${user}%5E009${pass}&parse&scale=5&option=parse)`;
   login.value = ''
   password.value = ''
 }
