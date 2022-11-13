@@ -113,7 +113,9 @@ password.addEventListener('keypress', function checkKey(e) {
 window.addEventListener('load', () => {
   let selectedItem = localStorage.getItem('selected');
   let array = localStorage.getItem('logins');
-  loginList = JSON.parse(array);
+  if(array != null) {
+     loginList = JSON.parse(array);
+  }
   redrawLoginsList()
   document.querySelectorAll('option').forEach(e => {
     if (e.dataset.index === selectedItem) {
