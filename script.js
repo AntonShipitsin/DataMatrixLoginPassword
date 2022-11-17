@@ -60,8 +60,8 @@ const redrawLoginsList = function () {
 
 
 const createAndShowNewUser = function () {
-  let user = login.value
-  let pass = password.value
+  let user = login.value.replace(/ /g,'')
+  let pass = password.value.replace(/ /g,'')
   if (validateDataBeforAdd(user, pass)) {
     addDataToArray(user, pass)
     redrawLoginsList()
